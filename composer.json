@@ -1,5 +1,7 @@
 {
     "name": "ouahab-a/dummy-config-test",
+    "description": "Dummy package for testing purposes only.",
+    "license": "MIT",
     "authors": [
         {
             "name": "ouahab-a"
