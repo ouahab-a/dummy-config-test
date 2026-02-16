@@ -1,0 +1,16 @@
+{
+    "name": "ouahab-a/dummy-config-test",
+    "authors": [
+        {
+            "name": "ouahab-a"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {},
+    "autoload": {
+    "psr-4": {
+        "OuahabA\\DummyConfigTest\\": "src/"
+    }
+}
+
+}
