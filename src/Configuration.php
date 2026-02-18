@@ -11,14 +11,14 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace OuahabA\DummyConfigTest;
+namespace League\Config;
 
 use Dflydev\DotAccessData\Data;
 use Dflydev\DotAccessData\DataInterface;
 use Dflydev\DotAccessData\Exception\DataException;
 use Dflydev\DotAccessData\Exception\InvalidPathException;
-use OuahabA\DummyConfigTest\Exception\UnknownOptionException;
-use OuahabA\DummyConfigTest\Exception\ValidationException;
+use League\Config\Exception\UnknownOptionException;
+use League\Config\Exception\ValidationException;
 use Nette\Schema\Expect;
 use Nette\Schema\Processor;
 use Nette\Schema\Schema;

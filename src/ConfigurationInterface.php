@@ -11,10 +11,10 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace OuahabA\DummyConfigTest;
+namespace League\Config;
 
-use OuahabA\DummyConfigTest\Exception\UnknownOptionException;
-use OuahabA\DummyConfigTest\Exception\ValidationException;
+use League\Config\Exception\UnknownOptionException;
+use League\Config\Exception\ValidationException;
 
 /**
  * Interface for reading configuration values

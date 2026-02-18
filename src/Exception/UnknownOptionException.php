@@ -11,13 +11,13 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace OuahabA\DummyConfigTest\Exception;
+namespace League\Config\Exception;
 
 use Throwable;
 
 final class UnknownOptionException extends \InvalidArgumentException implements ConfigurationExceptionInterface
 {
-    private static $path;
+    private string $path;
 
     public function __construct(string $message, string $path, int $code = 0, ?Throwable $previous = null)
     {
@@ -30,4 +30,4 @@ final class UnknownOptionException extends \InvalidArgumentException implements 
     {
         return $this->path;
     }
-} 
+}

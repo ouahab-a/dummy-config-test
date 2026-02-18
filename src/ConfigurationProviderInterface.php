@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace OuahabA\DummyConfigTest;
+namespace League\Config;
 
 /**
  * Interface for a service which provides a readable configuration object
