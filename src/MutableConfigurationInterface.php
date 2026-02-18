@@ -11,9 +11,9 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace League\Config;
+namespace OuahabA\DummyConfigTest;
 
-use League\Config\Exception\UnknownOptionException;
+use OuahabA\DummyConfigTest\Exception\UnknownOptionException;
 
 /**
  * Interface for setting/merging user-defined configuration values into the configuration object

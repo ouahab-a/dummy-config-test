@@ -11,8 +11,8 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace League\Config;
-
+namespace OuahabA\DummyConfigTest;
+use OuahabA\DummyConfigTest\ConfigurationInterface;
 /**
  * Provides read-only access to a given Configuration object
  */
@@ -28,7 +28,7 @@ final class ReadOnlyConfiguration implements ConfigurationInterface
     /**
      * {@inheritDoc}
      */
-    public function get(string $key)
+    public function get(string $key): mixed
     {
         return $this->config->get($key);
     }

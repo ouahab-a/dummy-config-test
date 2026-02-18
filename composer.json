@@ -26,11 +26,6 @@
     "prefer-stable": true,
     "autoload": {
         "psr-4": {
-            "League\\Config\\": "src"
-        }
-    },
-    "autoload-dev": {
-        "psr-4": {
             "OuahabA\\DummyConfigTest\\": "src/"
         }
     },

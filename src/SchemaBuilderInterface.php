@@ -11,7 +11,7 @@ declare(strict_types=1);
  * file that was distributed with this source code.
  */
 
-namespace League\Config;
+namespace OuahabA\DummyConfigTest;
 
 use Nette\Schema\Schema;
 
